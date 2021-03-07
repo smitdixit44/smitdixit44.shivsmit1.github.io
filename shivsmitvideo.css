@@ -1,0 +1,60 @@
+body{
+	background: linear-gradient(#EE7752, #E73C7E);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+
+}
+.navbar{
+	font-family: lato;
+	width: 100%;
+	background-color: #D27D2D;
+	overflow: auto;
+
+
+}
+li{
+	float: left;
+	margin: 10px;
+}
+
+.navbar h1{
+
+	margin-left: 20px;
+    font-size: 25px;
+    font-family: cursive; 
+    color: #fff;
+	text-align: left;
+	margin-bottom: 0px;
+
+}
+
+.navbar ul li{
+
+  padding: 10px;
+  border-bottom: 5px solid rgba(0,0,0)
+  border-top:10px solid rgba(500,225,225);
+
+}
+.navbar a:hover{
+	background: #594f8d; 
+
+}
+
+.navbar  a{
+
+  color: #bdb8d7;
+  display: block;
+
+}
+
+.navbar ul li a .fas{
+
+   width: 25px;
+
+}
+.navbar ul li:hover{
+
+		background: #594f8d;
+
+}

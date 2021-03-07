@@ -1,0 +1,51 @@
+body,
+html{
+
+	min-height: 100%;
+}
+
+
+body{
+	background-image: url(../photos/image13.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+
+}
+.sidebar{
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	background-color: #D27D2D;
+	padding-top: 30px;
+
+}
+
+.sidebar h1{
+    font-size: 25px;
+    font-family: cursive; 
+    color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.sidebar ul li{
+
+  padding: 15px;
+  border-bottom: 10px solid rgba(0,0,0)
+  border-top:10px solid rgba(500,225,225);
+
+}
+.sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.sidebar ul li a .fas{
+width: 25px;
+}
+.sidebar ul li:hover{
+
+	background: #594f8d; 
+
+}
